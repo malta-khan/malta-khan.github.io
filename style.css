@@ -1,14 +1,14 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-size: 24px;
     padding: 0;
     background-color: #fff7ed;
 }
 h1{
-    font-size: 42px;
+    font-size: 34px;
 }
 h2{
-    font-size: 36px;
+    font-size: 28px;
 }
 .main{
     padding: 30px 30px 30px 30px;
@@ -19,6 +19,17 @@ h2{
     margin-top: 25px;
     background-color: #ccfbf1;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.subsection{
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #a3f0df;
+    background-color: #fdf9f4;
+    border-radius: 5px;
+}
+.subsection h2{
+    margin: 10px;
+    color: #65a30d;
 }
 .erasedText{
     text-decoration: line-through;
@@ -38,6 +49,18 @@ h2{
 }
 .linkButton:hover{
     background-color: #fb923c;
+}
+
+.linkText, .linkText:visited{
+color: black;
+text-decoration: none;
+display: block;
+margin-left: 32px;
+padding: 5px;
+border-radius: 5px;
+}
+.linkText:hover{
+    background-color: #c9e99d;
 }
 
 .linkIcon{
